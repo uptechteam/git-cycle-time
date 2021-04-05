@@ -1,0 +1,20 @@
+{
+  "name": "git-cycle-time",
+  "version": "1.0.0",
+  "description": "A CLI tool to calculate Cycle Time based on Git history",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "node bin/index.js run --start 2020-01-01 --reg 'prod/.*' ./"
+  },
+  "keywords": [
+    "CLI"
+  ],
+  "author": "Arthur Mironenko",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^16.2.0"
+  },
+  "bin": {
+    "git-cycle-time": "./bin/index.js"
+  }
+}
